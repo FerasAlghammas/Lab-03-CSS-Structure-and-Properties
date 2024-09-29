@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title> Lab 3 </title>
+
+    <link rel="stylesheet" href="CssLab3.css">
+
+
+
+
+</head>
+
+<body>
+
+    <div class="image-preview">
+        <img src='https://cpit405.gitlab.io/images/KAU_logo.png' style="padding: 4px; margin: 5px;">
+    </div>
+    
+
+
+   
+    <div id="header">
+        <span class="myclass1">Every</span>
+        <span class="myclass2">one can</span>
+        <span class="myclass3">success.</span>
+    </div>
+    <p> One machine can do the work of fifty ordinary men.
+        <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+    </p>
+
+    <style>
+        p>span {
+            color: red;
+        }
+
+        #header span {
+            color: pink;
+        }
+
+        span {
+            color: green;
+        }
+
+        #header *:last-child {
+            color: orange;
+        }
+
+        #header span:first-child:hover {
+            color: blue;
+        }
+    </style>
+
+    <table>
+        <tr>
+            <td style="border-bottom: 3px solid;"></td>
+            <td style="border-bottom: 3px solid;">color</td>
+            <td style="border-bottom: 3px solid;">color when mouse over</td>
+        </tr>
+        <tr>
+            <td style="border-right: 3px solid;">span.myclass1</td>
+            <td style="border-right: 3px solid;">Pink</td>
+            <td>blue</td>
+        </tr>
+        <tr>
+            <td style="border-right: 3px solid;">span.myclass2</td>
+            <td style="border-right: 3px solid;">Pink</td>
+            <td>none</td>
+        </tr>
+        <tr>
+            <td style="border-right: 3px solid;">span.myclass3</td>
+            <td style="border-right: 3px solid;">Orange</td>
+            <td>none</td>
+        </tr>
+        <tr>
+            <td style="border-right: 3px solid;">span.myclass4</td>
+            <td style="border-right: 3px solid;">Red</td>
+            <td>none</td>
+        </tr>
+    </table>
+
+
+
+</body>
